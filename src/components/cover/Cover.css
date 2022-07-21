@@ -28,6 +28,7 @@
     color: white;
     font-size: 32px;
     font-family: Satoshi-Variable;
+    
 }
 
 @media screen and (max-width: 960px){
@@ -38,6 +39,5 @@
     .containervideo p {
         text-align: center;
         font-size: 22px;
-        width: 85%;
     }
 }

@@ -4,13 +4,14 @@ const Footer = () => {
   return (
     <footer className= "footer">
         <div className="footer-info">
+            <div className="texto">
             <h1> Joel Murua</h1>
             <p>
                 Buenos Aires, Argentina.
             </p>
             
             <h3> Contactame en mis redes</h3>
-                
+            </div>   
 
             
             <div className="footer-sns">
