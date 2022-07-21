@@ -17,7 +17,7 @@ const Footer = () => {
             <div className="footer-sns">
                 
                 <div className="sns-links">
-                    <a href="https://www.linkedin.com/in/joelmurua/" target="_blank">
+                    <a href="https://www.linkedin.com/in/joelmurua/" >
                     <ion-icon name="logo-linkedin" className="iconos"></ion-icon>
                     </a>
                     <a href="https://github.com/jotamurua">
