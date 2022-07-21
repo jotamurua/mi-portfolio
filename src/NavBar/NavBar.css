@@ -17,5 +17,18 @@
     line-height: 80px;
     color: white;
     cursor: pointer;
+    transition: all 0.4s;
+} 
+.logo:hover {
+    color: #263949;
+    transform: rotateX(180)
+    
+}
+.icono {
+    display: none;
+}
+.icono:hover {
+    color:red;
+    transform: scale(1.2);
 }
 
