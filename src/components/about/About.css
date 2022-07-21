@@ -1,0 +1,41 @@
+.aboutcontainer {
+    display: flex;
+    background-color: white;
+    color: black;
+    height: 70vh;
+    padding: 100px 0 100px 0;
+}
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding: 0 100px 0 100px;
+}
+
+.description > h3 {
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+.description > p {
+    line-height: 1.5;
+}
+
+@media only screen  and (max-width: 960px) {
+    .aboutcontainer {
+        flex-direction: column;
+        padding: 0;
+        height: auto;
+    }
+    .description {
+        width: 90%;
+        margin: 0 auto;
+        padding: 40px 20px 50px 20px;
+    }
+    .description > h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+    
+}
