@@ -34,7 +34,8 @@ const Carousel = () => {
           <img src={projecto.img} alt={projecto.title}/>
           <h4> 
            {projecto.title}
-</h4></a>
+          </h4>
+        </a>
         </div>
         <div className='card-bottom'>
           

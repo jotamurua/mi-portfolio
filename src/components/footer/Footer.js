@@ -17,16 +17,16 @@ const Footer = () => {
             <div className="footer-sns">
                 
                 <div className="sns-links">
-                    <a href="/" >
+                    <a href="https://www.linkedin.com/in/joelmurua/" target="_blank">
                     <ion-icon name="logo-linkedin" className="iconos"></ion-icon>
                     </a>
-                    <a href="/">
+                    <a href="https://github.com/jotamurua">
                     <ion-icon name="logo-github" className="iconos"></ion-icon>
                     </a>
-                    <a href="/">
+                    <a href="https://api.whatsapp.com/send?phone=5493425212930">
                     <ion-icon name="logo-whatsapp" className="iconos"></ion-icon>
                     </a>
-                    <a href="/">
+                    <a href="mailto:joel.l.murua@gmail.com">
                     <ion-icon name="mail-outline" className="iconos"></ion-icon>
                     </a>
                     
