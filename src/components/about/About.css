@@ -31,11 +31,12 @@
     .description {
         width: 90%;
         margin: 0 auto;
-        padding: 40px 20px 50px 20px;
+        padding: 40px 10px 50px 10px;
     }
     .description > h3 {
         font-size: 20px;
         text-align: center;
     }
+    
     
 }
