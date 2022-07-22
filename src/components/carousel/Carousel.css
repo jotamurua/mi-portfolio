@@ -31,8 +31,10 @@
     color:black;
     
 }
+
 .card-bottom p, .card-top a h4 {
     padding: 0 100px 0 100px;
+    line-height: 1.5;
 }
 
 @media only screen  and (max-width: 960px) {
