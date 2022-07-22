@@ -30,7 +30,7 @@ const Carousel = () => {
       
       <div className='card'>
         <div className='card-top'>
-        <a href={projecto.url}>
+        <a href={projecto.url} target="_blank" rel="noopener noreferrer">
           <img src={projecto.img} alt={projecto.title}/>
           <h4> 
            {projecto.title}

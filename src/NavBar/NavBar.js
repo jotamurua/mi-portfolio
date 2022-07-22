@@ -8,7 +8,7 @@ const toTop = () => {
   return (
     <nav className={`navbar ${scrolling>20 ? "scrolled" : null}`}>
         <div className="logo" onClick={toTop}>
-        <ion-icon name="home"></ion-icon>
+        <ion-icon name="home" ></ion-icon>
         </div>
     </nav>
   )

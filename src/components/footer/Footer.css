@@ -26,6 +26,9 @@
     color:white;
     padding: 0;
 }
+.texto a  {
+    color: #2D3850ff
+}
 .texto {
     padding-top: 100px;
     display: flex;
@@ -35,6 +38,7 @@
     justify-content: center;
 
 }
+
 .texto > h1 {
     padding-bottom: 15px;
 }
@@ -63,28 +67,22 @@
     grid-template-columns: repeat(4, 1fr);
     justify-items: center;
 }
-.sns-links a {
-    color:white;
-}
 
-.iconos {
+
+ion-icon {
     color: white;
-    font-size: 35px ;
+    font-size: 28px ;
     margin: 0 auto;
     padding-bottom: 10px;
     border-bottom: 4px solid transparent;
 }
 
-.iconos:hover {
-    border-color: white;
-    transition: all 0.3s ease-in-out;
+ion-icon:hover {
+    color: #2D3850ff;
+    font-size: 36px;
 }
 
-.design-by {
-    font-size: 18px;
-    padding-left: 50px;
-    color: white;
-}
+
 
 @media  only screen and (max-width:960px) {
     .footer-info {

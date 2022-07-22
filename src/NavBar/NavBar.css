@@ -12,10 +12,11 @@
     background-color: black;
     transition: all 0.5 ease;
 }
-.logo {
+ion-icon {
     height: 80px;
     line-height: 80px;
     color: white;
     cursor: pointer;
+    transition: all 0.6s ease;
 }
 
