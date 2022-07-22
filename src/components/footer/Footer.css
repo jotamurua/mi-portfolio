@@ -40,16 +40,8 @@
 }
 
 .texto > h1 {
-    padding-bottom: 15px;
+    padding-bottom: 0px;
 }
-
-.footer-contact {
-    font-size: 22px;
-    padding: 100px 0 30px 50px;
-    width: 70%;
-    margin: 0 auto;
-}
-
 .footer-sns {
     width: 70%;
     position: absolute;
