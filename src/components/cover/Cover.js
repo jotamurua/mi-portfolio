@@ -6,6 +6,10 @@ const Cover = () => {
         <video className="video" src={covervideo} autoPlay loop muted></video>
         <h1> Joel Murua</h1>
         <p>Front-end Developer</p>
+        <button onClick={() => window.scroll({
+  top: 480,
+  behavior: 'smooth'
+})}><ion-icon name="arrow-down-circle-outline" size="large"></ion-icon></button>
 
     </div>
   )
