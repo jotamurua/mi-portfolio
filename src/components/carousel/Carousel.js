@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { projectosRealizados } from '../../data/data';
 import "./Carousel.css"
+import CarouselItem from './CarouselItem/CarouselItem';
 
 
 const Carousel = () => {
@@ -28,22 +29,7 @@ const Carousel = () => {
     {projectosRealizados.map ((projecto) => 
     (
       
-      <div className='card'>
-        <div className='card-top'>
-        <a href={projecto.url} target="_blank" rel="noopener noreferrer">
-          <img src={projecto.img} alt={projecto.title}/>
-          <h4> 
-           {projecto.title}
-          </h4>
-        </a>
-        </div>
-        <div className='card-bottom'>
-          
-          <p>
-            {projecto.description}
-          </p>
-        </div>
-      </div>
+      <CarouselItem projecto={projecto} key={projecto.id}/>
 
     ))}
     </Slider>
