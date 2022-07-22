@@ -9,7 +9,7 @@ const Footer = () => {
             <p>
                 Buenos Aires, Argentina.
             </p>
-            <a href="/" target="_blank" rel="noopener noreferrer">
+            <a href="https://drive.google.com/file/d/1cYeWVyE_zBzts7OObpez23tuSkSjzk-_/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                 <p> Descarga mi CV!</p>
             </a>
             
