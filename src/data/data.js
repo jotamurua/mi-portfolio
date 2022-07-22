@@ -1,8 +1,8 @@
 export const projectosRealizados = [
     {
         id: 2,
-        title: "Ecommerce fitcticio LETO",
-        description: "e-commerce ficticio creado para el proyecto final del curso de React.js de Coderhouse, consta de una tienda dedicada a la venta de granos y elaboraciones de café.",
+        title: "e-commerce ficticio LETO",
+        description: "e-commerce ficticio creado para el proyecto final del curso de React.js de Coderhouse, consta de una tienda dedicada a la venta de granos y elaboraciones de café. Con sus productos y pedidos vinculados a Firebase, cuando se completa un pedido se carga un documento en la base de datos con toda la información necesaria.",
         img: "https://firebasestorage.googleapis.com/v0/b/portfolio-eda94.appspot.com/o/leto.PNG?alt=media&token=8852febc-faf2-413a-bfee-a26616db2327",
         url: "https://github.com/jotamurua/leto-murua.git"
     },
