@@ -10,7 +10,9 @@ const CarouselItem = ({projecto}) => {
     <p class="text-body">{projecto.description}</p>
     <div className="botones-links">
     
-    <button> <ion-icon name="logo-github"></ion-icon>
+    <button>
+       <ion-icon name="logo-github"></ion-icon>
+       
 </button>
 <button><ion-icon name="globe-outline"></ion-icon>
 </button>
