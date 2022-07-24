@@ -25,6 +25,7 @@ const Carousel = () => {
   return (
     <div className='carousel'>
     <h3>Mis Proyectos:</h3>
+    
     <Slider {...settings} className="slider">
     {projectosRealizados.map ((projecto) => 
     (
@@ -33,6 +34,7 @@ const Carousel = () => {
 
     ))}
     </Slider>
+    
     </div>
     
     )
