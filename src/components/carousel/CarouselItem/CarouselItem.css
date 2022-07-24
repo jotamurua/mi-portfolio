@@ -23,6 +23,7 @@
    /*Description */
    .card-description {
     display: flex;
+    justify-content: flex-end;
     position: absolute;
     gap: 1em;
     flex-direction: column;
