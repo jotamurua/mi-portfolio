@@ -9,14 +9,18 @@ const CarouselItem = ({projecto}) => {
     <p class="text-title"> {projecto.title}</p>
     <p class="text-body">{projecto.description}</p>
     <div className="botones-links">
-    
-    <button>
+    <a href={projecto.url} target="_blank" rel="noopener noreferrer">
+      <button>
        <ion-icon name="logo-github"></ion-icon>
-       
-</button>
-<button><ion-icon name="globe-outline"></ion-icon>
-</button>
-
+      </button>
+    </a>
+    {projecto.deploy &&
+    <a href={projecto.deploy} target="_blank" rel="noopener noreferrer">
+    <button>
+      <ion-icon name="globe-outline"></ion-icon>
+    </button>
+    </a>
+    }
 </div>
   </div>
 </div>
