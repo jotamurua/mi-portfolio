@@ -8,6 +8,14 @@ export const projectosRealizados = [
         deploy: "https://letobrewlab.netlify.app/"
     },
     {
+        id: 4,
+        title: "Juego TRON",
+        description: "Clasico juego TRON creado con REACT",
+        img: "https://firebasestorage.googleapis.com/v0/b/portfolio-eda94.appspot.com/o/tron.png?alt=media&token=bdefe41b-a78e-4014-8430-0af76013ba1c",
+        url: "https://github.com/jotamurua/tron-juego.git",
+        deploy: "https://juegotron.netlify.app/"
+    },
+    {
         id: 1,
         title: "Proyecto Integrador Argentina Programa",
         description: "Portfolio realizado en Angular para Argentina Programa, el mismo cuenta con un inicio de sesión botones para editar y eliminar items en cada categoría.",
