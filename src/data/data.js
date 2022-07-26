@@ -11,7 +11,7 @@ export const projectosRealizados = [
         id: 4,
         title: "Juego TRON",
         description: "Clasico juego TRON para dos 2 jugadores. Creado con REACT usando useReduce, customHooks, alternando las pantallas usando estados en lugar de router-dom.",
-        img: "https://firebasestorage.googleapis.com/v0/b/portfolio-eda94.appspot.com/o/tron.png?alt=media&token=bdefe41b-a78e-4014-8430-0af76013ba1c",
+        img: "https://firebasestorage.googleapis.com/v0/b/portfolio-eda94.appspot.com/o/tron.png?alt=media&token=a21ceee8-c893-4aa8-97a1-ab3b963abeb2",
         url: "https://github.com/jotamurua/tron-juego.git",
         deploy: "https://juegotron.netlify.app/"
     },
