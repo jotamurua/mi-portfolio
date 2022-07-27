@@ -10,15 +10,15 @@ export const projectosRealizados = [
     {
         id: 4,
         title: "Juego TRON",
-        description: "Clasico juego TRON para dos jugadores. Creado con REACT usando useReduce, customHooks, alternando las pantallas usando estados en lugar de router-dom.",
-        img: "https://firebasestorage.googleapis.com/v0/b/portfolio-eda94.appspot.com/o/tron.png?alt=media&token=a21ceee8-c893-4aa8-97a1-ab3b963abeb2",
+        description: "Clasico juego TRON pero con un toque propio: esta versión se puede jugar de 2, 3, o 4 jugadores.",
+        img: "https://firebasestorage.googleapis.com/v0/b/portfolio-eda94.appspot.com/o/tron.png?alt=media&token=43ad159c-545c-4ad7-a98e-186fd7e5958a",
         url: "https://github.com/jotamurua/tron-juego.git",
         deploy: "https://juegotron.netlify.app/"
     },
     {
         id: 1,
         title: "Proyecto Integrador Argentina Programa",
-        description: "Portfolio realizado en Angular para Argentina Programa, el mismo cuenta con un inicio de sesión botones para editar y eliminar items en cada categoría.",
+        description: "(en desarrollo) Portfolio realizado en Angular para Argentina Programa, el mismo cuenta con un inicio de sesión botones para editar y eliminar items en cada categoría.",
         img: "https://firebasestorage.googleapis.com/v0/b/portfolio-eda94.appspot.com/o/argprog.PNG?alt=media&token=e32c98a5-af56-40e5-aace-79003b033323",
         url: "https://github.com/jotamurua/proyectoIntegrador-Murua.git",
         deploy: ""
@@ -26,7 +26,7 @@ export const projectosRealizados = [
     {
         id: 3,
         title: "Pokedex API ANGULAR",
-        description: "Proyecto que consume una Poke Api en Angular para mostrar ciertas caracteristicas de un determinado pokemon buscado",
+        description: "(en desarrollo) Proyecto que consume una Poke Api en Angular para mostrar ciertas caracteristicas de un determinado pokemon buscado",
         img: "https://firebasestorage.googleapis.com/v0/b/portfolio-eda94.appspot.com/o/pokedex.PNG?alt=media&token=5048857a-230a-4876-a0bd-bebf31b61c86",
         url: "https://github.com/jotamurua/POKEDEX.git",
         deploy: ""
