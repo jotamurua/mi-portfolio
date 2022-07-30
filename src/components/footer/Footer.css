@@ -54,12 +54,16 @@
     align-items: center;
 }
 .sns-links {
-    display: grid;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     width: 100%;
-    grid-template-columns: repeat(4, 1fr);
     justify-items: center;
 }
-
+.sns-links a {
+    margin:10px
+}
 
 ion-icon {
     color: white;
