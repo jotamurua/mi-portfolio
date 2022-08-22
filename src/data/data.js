@@ -8,6 +8,14 @@ export const projectosRealizados = [
         deploy: "https://letobrewlab.netlify.app/"
     },
     {
+        id: 5,
+        title: "MUNIN",
+        description: "Pagina web desarrollada en Next.JS donde, logueandote con tu usuario de Google, podés subir publicaciones asi como tambien likea y comentar otras ya existentes.",
+        img: "https://firebasestorage.googleapis.com/v0/b/portfolio-eda94.appspot.com/o/MUNIN%20SCREENSHOT.png?alt=media&token=c1e13813-feac-4155-adfe-e8bfeafba112",
+        url: "https://github.com/jotamurua/munin-app.git",
+        deploy: "https://munin-app.vercel.app/"
+    },
+    {
         id: 4,
         title: "Juego TRON",
         description: "Clasico juego TRON pero con un toque propio: esta versión se puede jugar de 2, 3, o 4 jugadores.",
