@@ -5,7 +5,7 @@ const Cover = () => {
     <div className="containervideo">
         <video className="video" src={covervideo} autoPlay loop muted></video>
         <h1> Joel Murua</h1>
-        <p>Front-end Developer</p>
+        <p>Fullstack Developer</p>
         <button onClick={() => window.scroll({
   top: 480,
   behavior: 'smooth'

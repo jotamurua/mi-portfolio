@@ -26,10 +26,10 @@ export const projectosRealizados = [
     {
         id: 1,
         title: "Proyecto Integrador Argentina Programa",
-        description: "(en desarrollo) Portfolio realizado en Angular para Argentina Programa, el mismo cuenta con un inicio de sesión botones para editar y eliminar items en cada categoría.",
-        img: "https://firebasestorage.googleapis.com/v0/b/portfolio-eda94.appspot.com/o/argprog.PNG?alt=media&token=e32c98a5-af56-40e5-aace-79003b033323",
+        description: "Portfolio realizado en Angular, Spring y MySQL para Argentina Programa, el mismo cuenta con un Login JWT (usuario: joeladmin contraseña: admin) que habilita botones para editar y eliminar items en cada categoría.",
+        img: "https://firebasestorage.googleapis.com/v0/b/portfolio-eda94.appspot.com/o/nuevo%20port.png?alt=media&token=f0f34bd2-1598-48c5-9f21-039154aa29a2",
         url: "https://github.com/jotamurua/proyecto-murua.git",
-        deploy: ""
+        deploy: "https://frontendargprog-8b1ad.web.app/"
     },
     {
         id: 3,
