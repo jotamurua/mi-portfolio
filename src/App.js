@@ -5,6 +5,7 @@ import Carousel from './components/carousel/Carousel';
 import Cover from './components/cover/Cover';
 import Footer from './components/footer/Footer';
 import Info from './components/Info/Info';
+import Skills from './components/skills/Skills';
 import NavBar from './NavBar/NavBar';
 
 
@@ -23,6 +24,7 @@ function App() {
       <NavBar scrolling = {scroll}/>
       <Cover/>
       <About/>
+      <Skills/>
       <Carousel/>
       <Info/>
       <Footer/>

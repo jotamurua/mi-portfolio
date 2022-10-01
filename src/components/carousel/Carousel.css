@@ -1,5 +1,5 @@
 .carousel {
-    background-color: white;
+    background-color: #EEEEFF;
     display: flex;
     flex-wrap: wrap;
 }
@@ -9,7 +9,7 @@
     padding: 0 100px 0 100px;
 }
 .slider {
-    background-color: white;
+    background-color: #EEEEFF;
     width: 100%;
 }
 .card-top a img {
