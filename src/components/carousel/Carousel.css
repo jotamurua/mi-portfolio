@@ -2,15 +2,27 @@
     background-color: #EEEEFF;
     display: flex;
     flex-wrap: wrap;
+    
 }
 .carousel h3 {
-    margin-bottom: 30px;
+    margin-bottom: 0;
     font-size: 28px;
+    padding: 0 100px 0 100px;
+}
+.carousel h3 span {
+    font-style: italic;
+    font-size: 0.5em;
+    font-weight: lighter;
+}
+.headercar p {
+    font-style: italic;
+    font-size: 0.8em;
     padding: 0 100px 0 100px;
 }
 .slider {
     background-color: #EEEEFF;
     width: 100%;
+    margin-top: 30px;
 }
 .card-top a img {
     display: block;
@@ -40,6 +52,9 @@
 @media only screen  and (max-width: 960px) {
     .carousel {
         justify-content: center;
+    }
+    .headercar{
+        align-items: center;
     }
     .carousel h3 {
         font-size: 20px;

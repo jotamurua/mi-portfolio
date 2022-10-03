@@ -24,9 +24,15 @@ const Carousel = () => {
   };
   return (
     <div className='carousel'>
+
+
     <h3>Mis Proyectos
+      <br></br>
+      <span>Desliza para verlos a todos</span>
     </h3>
+ 
     
+
     <Slider {...settings} className="slider">
     {projectosRealizados.map ((projecto) => 
     (
