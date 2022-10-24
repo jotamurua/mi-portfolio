@@ -17,6 +17,14 @@ export const projectosRealizados = [
         deploy: "https://munin-app.vercel.app/"
     },
     {
+        id: 6,
+        title: "Pokedex API ANGULAR",
+        description: "Proyecto que consume una Poke Api en Angular para mostrar un catalogo de pokemons y la posibilidad de ver más detalles de uno solicitado.",
+        img: "https://firebasestorage.googleapis.com/v0/b/portfolio-eda94.appspot.com/o/pokedex.png?alt=media&token=c3869f01-5d29-4baa-aebf-955d441be754",
+        url: "https://github.com/jotamurua/POKEDEX-ANGULAR.git",
+        deploy: ""
+    },
+    {
         id: 4,
         title: "Juego TRON",
         description: "Clasico juego TRON pero con un toque propio: esta versión se puede jugar de 2, 3, o 4 jugadores.",
@@ -39,15 +47,8 @@ export const projectosRealizados = [
         img: "https://firebasestorage.googleapis.com/v0/b/portfolio-eda94.appspot.com/o/crudapp.jpeg?alt=media&token=ab6fadc5-75eb-4da1-9f5b-616399f54c6d",
         url: "https://github.com/jotamurua/FRONT-CRUD-Mascotas",
         deploy: ""
-    },
-    {
-        id: 6,
-        title: "Pokedex API ANGULAR",
-        description: "(en desarrollo) Proyecto que consume una Poke Api en Angular para mostrar ciertas caracteristicas de un determinado pokemon buscado",
-        img: "https://firebasestorage.googleapis.com/v0/b/portfolio-eda94.appspot.com/o/pokedex.PNG?alt=media&token=5048857a-230a-4876-a0bd-bebf31b61c86",
-        url: "https://github.com/jotamurua/POKEDEX.git",
-        deploy: ""
-    },
+    }
+
 ]
 export const habilidades = [
     {
