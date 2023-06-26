@@ -6,7 +6,7 @@ export const projectosRealizados = [
         description: "e-commerce ficticio creado para el proyecto final del curso de React.js de Coderhouse, consta de una tienda dedicada a la venta de granos y elaboraciones de café. Con sus productos y pedidos vinculados a Firebase, cuando se completa un pedido se carga un documento en la base de datos con toda la información necesaria.",
         img: "https://firebasestorage.googleapis.com/v0/b/portfolio-eda94.appspot.com/o/leto.PNG?alt=media&token=27ba2a84-8627-4f35-98cd-361db23d55ee",
         url: "https://github.com/jotamurua/leto-murua.git",
-        deploy: "https://letobrewlab.netlify.app/"
+        deploy: ""
     },
     {
         id: 5,
@@ -105,4 +105,19 @@ export const habilidades = [
         img: "https://firebasestorage.googleapis.com/v0/b/portfolio-eda94.appspot.com/o/java.png?alt=media&token=409a5a93-9038-4674-8f1a-3267457b24a6",
         alt:  " ",
     }
+    // {
+    //     id:10,
+    //     title:"Php",
+    //     img: "https://firebasestorage.googleapis.com/v0/b/portfolio-eda94.appspot.com/o/PHP-logo.png?alt=media&token=108c345e-2023-4f45-99ec-aae6d7a7f6e9"
+    // },
+    // {
+    //     id:11,
+    //     title:"WordPress",
+    //     img: "https://firebasestorage.googleapis.com/v0/b/portfolio-eda94.appspot.com/o/logo-wp.png?alt=media&token=ed24d5fa-34e8-4e4a-aa67-eefbafc0941c",
+    // },
+    // {
+    //     id:12,
+    //     title:"SQL",
+    //     img: "https://firebasestorage.googleapis.com/v0/b/portfolio-eda94.appspot.com/o/sql-logo.png?alt=media&token=45a7480f-1895-4ff4-b7ed-5fb420ad797e",
+    // },
 ]
