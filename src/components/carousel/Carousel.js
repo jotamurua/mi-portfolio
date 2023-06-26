@@ -33,7 +33,7 @@ const Carousel = () => {
  
     
 
-    <Slider {...settings} className="slider">
+    <Slider {...settings} className="carousel__slider">
     {projectosRealizados.map ((projecto) => 
     (
       

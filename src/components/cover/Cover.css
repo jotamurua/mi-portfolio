@@ -1,4 +1,4 @@
-.containervideo {
+.cover__box {
     height: 100vh;
     width: 100%;
     object-fit: contain;
@@ -10,7 +10,7 @@
     align-items: center;
 
 }
-.video {
+.cover__video {
     object-fit: cover;
     width: 100%;
     height: 100vh;
@@ -19,29 +19,29 @@
     background-color: #eeeeff;
 }
 
-.containervideo h1 {
+.cover__box h1 {
     color: white;
     font-size: 100px;
     font-family: Satoshi-Variable;
 }
 
-.containervideo p {
+.cover__box p {
     color: white;
     font-size: 32px;
     font-family: Satoshi-Variable;
     
 }
-.containervideo button {
+.cover__box button {
     background: none;
     border: none;
 }
 
 @media screen and (max-width: 960px){
-    .containervideo h1 {
+    .cover__box h1 {
         font-size: 70px;
         text-align: center;
     }
-    .containervideo p {
+    .cover__box p {
         text-align: center;
         font-size: 22px;
     }

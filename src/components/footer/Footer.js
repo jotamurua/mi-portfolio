@@ -3,8 +3,8 @@ import "./Footer.css"
 const Footer = () => {
   return (
     <footer className= "footer">
-        <div className="footer-info">
-            <div className="texto">
+        <div className="footer__info">
+            <div className="footer__text">
             <h1> Joel Murua</h1>
             <p>
                 Buenos Aires, Argentina.
@@ -17,19 +17,19 @@ const Footer = () => {
             </div>   
 
             
-            <div className="footer-sns">
+            <div className="footer__sns">
                 
-                <div className="sns-links">
-                    <a href="https://www.linkedin.com/in/joelmurua/" className="iconos" target="_blank" rel="noopener noreferrer" >
+                <div className="footer__links">
+                    <a href="https://www.linkedin.com/in/joelmurua/" className="footer__icons" target="_blank" rel="noopener noreferrer" >
                     <ion-icon name="logo-linkedin" ></ion-icon>
                     </a>
-                    <a href="https://github.com/jotamurua" className="iconos" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/jotamurua" className="footer__icons" target="_blank" rel="noopener noreferrer">
                     <ion-icon name="logo-github"   target="_blank" rel="noopener noreferrer"></ion-icon>
                     </a>
-                    <a href="https://api.whatsapp.com/send?phone=5493425212930" className="iconos" target="_blank" rel="noopener noreferrer">
+                    <a href="https://api.whatsapp.com/send?phone=5493425212930" className="footer__icons" target="_blank" rel="noopener noreferrer">
                     <ion-icon name="logo-whatsapp" ></ion-icon>
                     </a>
-                    <a href="mailto:joel.l.murua@gmail.com" className="iconos" target="_blank" rel="noopener noreferrer">
+                    <a href="mailto:joel.l.murua@gmail.com" className="footer__icons" target="_blank" rel="noopener noreferrer">
                     <ion-icon name="mail-outline" ></ion-icon>
                     </a>
                     

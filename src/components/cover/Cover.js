@@ -2,8 +2,8 @@ import "./Cover.css"
 import covervideo from "../../media/covervideo.mp4"
 const Cover = () => {
   return (
-    <div className="containervideo">
-        <video className="video" src={covervideo} autoPlay loop muted></video>
+    <div className="cover__box">
+        <video className="cover__video" src={covervideo} autoPlay loop muted></video>
         <h1> Joel Murua</h1>
         <p>Fullstack Developer</p>
         <button onClick={() => window.scroll({

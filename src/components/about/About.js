@@ -2,11 +2,11 @@ import "./About.css"
 
 const About = () => {
   return (
-    <div className="aboutcontainer">
-        <div className="description">
+    <div className="about__box">
+        <div className="about__description">
             <h3> Dejame contarte algo acerca de mí</h3>
-            <p> Mi nombre es Joel Laureano Murua, soy un joven estudiante de programación viviendo en la ciudad de Buenos Aires. <br></br>
-            He realizado la carrera de Full Stack Dev. | Angular en Argentina Programa y React.js en CoderHouse. Estoy interesado en continuar expandiendo mis conocimientos y mis habilidades en el desarrollo Fullstack y el diseño UX-UI.
+            <p> Mi nombre es Joel Laureano Murua, soy un desarrollador Fullstack Jr. enfocado principalmente en desarrollo frontend.<br></br>
+           Destaco por mi persistencia ante los obstáculos y mi facilidad para la comunicación efectiva. Busco combinar mi creatividad y habilidades técnicas para crear experiencias de usuario impactantes portando a un crecimiento continuo como profesional, colaborando en proyectos desafiantes y aportando soluciones.
             </p>
         </div>
     </div>

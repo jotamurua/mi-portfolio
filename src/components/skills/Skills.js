@@ -4,9 +4,9 @@ import "./Skills.css";
 
 const Skills = () => {
   return (
-    <div className="skillscontainer">
+    <div className="skills__box">
       <h3> Mis habilidades</h3>
-      <section className="skillssection">
+      <section className="skills__section">
         {habilidades.map(habilidad =>
         <Skill key={habilidad.id} img={habilidad.img} alt={habilidad.alt} />
            )}

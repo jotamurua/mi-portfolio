@@ -1,15 +1,12 @@
 import "./Skill.css"
 
-const Skill = ({ img, alt}) => {
+const Skill = ({img, alt}) => {
   return (
-<article>
-<button className="botonneo">
-  <img src={img} alt={alt}/>
-</button>
-
-</article>
-
-
+  <article className="skill__article">
+    <button className="skill__button">
+      <img src={img} alt={alt}/>
+    </button>
+  </article>
   )
 }
 

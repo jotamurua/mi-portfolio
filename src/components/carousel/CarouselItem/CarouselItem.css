@@ -1,4 +1,4 @@
-.card {
+.carrousel-item__card {
     height: 480px;
     width: 720px;
     position: relative;
@@ -9,7 +9,7 @@
     overflow: hidden;
    }
    
-   .card-image {
+   .carrousel-item__image {
     height: 100%;
     width: 100%;
     position: absolute;
@@ -18,7 +18,7 @@
     background: linear-gradient(to top, #0a3394, #4286f4);
    }
    
-   .card-description {
+   .carrousel-item__description {
     display: flex;
     justify-content: flex-end;
     position: absolute;
@@ -32,29 +32,30 @@
     padding: 1rem;
    }
    
-   .text-title {
+   .carrousel-item__title {
     font-size: 1.4em;
     font-weight: 700;
    }
    
-   .text-body {
+   .carrousel-item__body {
     font-size: 1em;
     line-height: 150%;
    }
    
-   .card:hover .card-description {
+   .carrousel-item__card:hover .carrousel-item__description {
     transform: translateY(-100%);
    }
-.card-container{
+
+.carrousel-item__box {
     display: flex;
     justify-content: center;
 }
-.botones-links {
+.carrousel-item__links {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
- .botones-links button {
+ .carrousel-item__links button {
     --color: #2D3850ff;
     display: flex;
     align-items: center;
@@ -69,16 +70,16 @@
     transition: all .7s;
     cursor: pointer;
    }
-   .botones-links button ion-icon {
+   .carrousel-item__links button ion-icon {
     color: var(--color);
     padding-bottom: 0px;
 
    }
 
-   .botones-links button:hover ion-icon{
+   .carrousel-item__links button:hover ion-icon{
     color:white;
    }
-   .botones-links button:hover {
+   .carrousel-item__links button:hover {
     background-color: var(--color);
    }
    
